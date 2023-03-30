@@ -7,6 +7,39 @@
 </head>
 
 <body>
+	<label for="game-number">Number of turns:</label>
+<input type="number" id="game-number" data-ns-test="game-number">
+
+<button id="play-game" data-ns-test="play-game">Play</button>
+
+<div class="options">
+  <button class="option" data-option="rock" data-ns-test="rock">Rock</button>
+  <button class="option" data-option="paper" data-ns-test="paper">Paper</button>
+  <button class="option" data-option="scissors" data-ns-test="scissors">Scissors</button>
+</div>
+
+<div class="scoreboard">
+  <div class="user-score">
+    <h2>You</h2>
+    <p data-ns-test="user-points">0</p>
+  </div>
+  <div class="computer-score">
+    <h2>Computer</h2>
+    <p data-ns-test="computer-points">0</p>
+  </div>
+  <div class="rounds-left">
+    <h2>Round Left</h2>
+    <p data-ns-test="rounds-left">0</p>
+  </div>
+</div>
+
+<div class="result">
+  <p data-ns-test="computer-choose"></p>
+  <p data-ns-test="round-result"></p>
+</div>
+
+<p data-ns-test="game-result"></p>
+
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
