@@ -1,4 +1,4 @@
- var gameNumberEl = document.getElementById("game-number");
+var gameNumberEl = document.getElementById("game-number");
   var gameContainerEl = document.getElementById("game-container");
   var rockBtnEl = document.getElementById("rock");
   var paperBtnEl = document.getElementById("paper");
@@ -100,7 +100,9 @@
  
 
   }
+ 
 
+/*   // button click */
   rockBtnEl.addEventListener('click', userChoose);
   paperBtnEl.addEventListener('click', userChoose);
   scissorBtnEl.addEventListener('click', userChoose);
